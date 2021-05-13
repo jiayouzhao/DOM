@@ -1,4 +1,4 @@
-window.dom = window.$ = {
+window.dom = {
 	create:function(string) {
 		
 		const container = document.createElement("template");
