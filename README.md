@@ -1,12 +1,10 @@
-# DOM库用到的原生JS API
+# DOM库
 
 ## 原生 JS API
 
 1. string.trim()
 
-2. template标签
-
-3. insertBefore()
+2. insertBefore()
    
     ```js
     node.parentNode.insertBefore(newNode,node)
@@ -15,16 +13,18 @@
     node.parentNode.insertBefore(newNode,node.nextSibling)
     ```
 
-4. xxx instanceof Object
+3. xxx instanceof Object
 
-5. classList
+4. classList
 
     ```js
     xxx.classList.add()
     xxx.classList.remove()
     xxx.classList.contains()
     ```
+## HTML标签
 
+1. template标签
 
 ## ES6
 
